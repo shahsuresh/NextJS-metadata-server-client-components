@@ -2,6 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import { useEffect } from "react";
+import Counter from "./Counter";
 
 const ContactPage = () => {
   const [postData, setPostData] = useState([]);
@@ -28,6 +29,7 @@ const ContactPage = () => {
        
       ))}
            </ul>
+           <Counter/>
     </div>
   );
 };
