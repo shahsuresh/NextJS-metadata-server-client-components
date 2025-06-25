@@ -4,7 +4,10 @@ const UserPost = async (props) => {
     const userpostID = await props.params
     console.log(userpostID)
   return (
-    <div>User post ID is: {userpostID.postid}</div>
+    <div>
+      <h1>User Name is: {userpostID.username}</h1>
+      User post ID is: {userpostID.postid}
+      </div>
   )
 }
 
